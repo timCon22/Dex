@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="text-center">
+    <form id="search-form">
+        <input type="text" id="search-query" placeholder="Search a pokemon!">
+        <button type="submit">Search</button>
+    </form>
+    <br>
+</div>
+
+<div class="hero">
+        <h2 id="search-header">Here is Your Pokemon</h2>
+</div>
+<ul id="pokemon-list">
+</ul>     
+{% endblock %}

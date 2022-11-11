@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="pokemon-header-image">
+    <h1 class="text-center" id="header">Your currently saved pokemon:</h1>
+</div>
+
+    <div id="list" class="modal-body d-flex justify-content-center">
+        <ul class="list-group list-group-flush" id="home-list">
+        {% for item in result %}
+            <li class="list-group-item" id="inner-home-list">
+                <div class="text-center">
+                    <img src="{{ item.pokemon_img }}">
+                    <p>{{ item.pokemon_name }}</p>
+                    <form class="navbar-form" id="del-form" action="/removePkmn" method="post">
+                        <input type="hidden" id="index" name="index" value="{{ item.poke_id }}">
+                        <input class="btn btn-danger form-control" type="submit" value="Release">
+                    </form>
+                </div>
+                {% endfor %}
+            </ul>
+        
+        {% if not result %}
+            <h4>Nothing to show here!</h4>
+        {% endif %}
+    </div>
+
+        
+{% endblock %}

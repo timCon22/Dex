@@ -1,0 +1,86 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(58, 174, 212);
+}
+
+
+#login{
+    padding-top: 10%;
+}
+
+
+#pokemon-name{
+    color: black;
+}
+
+
+#home-anon{
+    text-align: center;
+    padding-top: 15%;
+}
+
+
+#pokemon-header-image{
+
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("https://www.nicepng.com/png/full/49-491514_pokemon-dialog-box-pokemon-dialogue-box.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+#inner-home-list {
+    background-color: rgba(120, 141, 163, 0.895);
+    display: inline;
+    /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4294769f-0f6f-466f-b1ec-b581d84cfd77/d4umff8-ede600bf-4530-461a-9648-2b0ce3cdd3c1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQyOTQ3NjlmLTBmNmYtNDY2Zi1iMWVjLWI1ODFkODRjZmQ3N1wvZDR1bWZmOC1lZGU2MDBiZi00NTMwLTQ2MWEtOTY0OC0yYjBjZTNjZGQzYzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Z8iJXa7gf_w7TgjZww039iDXovcV-n1oQHAmroGyP5k");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+
+#header {
+    position: relative;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+    width: auto;
+}
+
+
+.hero{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("https://www.nicepng.com/png/full/49-491514_pokemon-dialog-box-pokemon-dialogue-box.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: greenyellow; */
+
+}
+
+
+#search-header{
+    position: absolute;
+    padding: auto;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
+
+#list{
+    opacity: .9;
+}
